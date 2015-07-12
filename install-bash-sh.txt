@@ -3,3 +3,14 @@ Set colors from default to white background black font
 mv <path>/<to>/<file>/git-completion.bash.txt git-completion.bash
 mv <path>/<to>/<file>/git-prompt.sh.txt git-prompt.sh
 mv <path>/<to>/<file>/bash_profile_course .bash_profile
+
+git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+
+or
+
+git config --global core.editor "atom --wait"
+
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+restart Git Bash
